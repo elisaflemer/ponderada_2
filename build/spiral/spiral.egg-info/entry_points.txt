@@ -1,0 +1,3 @@
+[console_scripts]
+draw_spiral = spiral.draw_spiral:main
+

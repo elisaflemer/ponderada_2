@@ -1,0 +1,59 @@
+[2.486s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/elisaflemer/package']
+[2.487s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/elisaflemer/package'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f031f79d9c0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f031f70f070>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f031f70f070>>)
+[2.662s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.662s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.663s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.663s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.663s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.664s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/elisaflemer/package'
+[2.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package) by extensions ['ignore', 'ignore_ament_install']
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package) by extension 'ignore'
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package) by extension 'ignore_ament_install'
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package) by extensions ['colcon_pkg']
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package) by extension 'colcon_pkg'
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package) by extensions ['colcon_meta']
+[2.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package) by extension 'colcon_meta'
+[2.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package) by extensions ['ros']
+[2.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package) by extension 'ros'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package) by extensions ['cmake', 'python']
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package) by extension 'cmake'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package) by extension 'python'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package) by extensions ['python_setup_py']
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package) by extension 'python_setup_py'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/log) by extensions ['ignore', 'ignore_ament_install']
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/log) by extension 'ignore'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/log) ignored
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src) by extensions ['ignore', 'ignore_ament_install']
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src) by extension 'ignore'
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src) by extension 'ignore_ament_install'
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src) by extensions ['colcon_pkg']
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src) by extension 'colcon_pkg'
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src) by extensions ['colcon_meta']
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src) by extension 'colcon_meta'
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src) by extensions ['ros']
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src) by extension 'ros'
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src) by extensions ['cmake', 'python']
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src) by extension 'cmake'
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src) by extension 'python'
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src) by extensions ['python_setup_py']
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src) by extension 'python_setup_py'
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src/build) by extensions ['ignore', 'ignore_ament_install']
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src/build) by extension 'ignore'
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src/build) ignored
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src/install) by extensions ['ignore', 'ignore_ament_install']
+[2.727s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src/install) by extension 'ignore'
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src/install) ignored
+[2.728s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src/log) by extensions ['ignore', 'ignore_ament_install']
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src/log) by extension 'ignore'
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src/log) ignored
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src/spiral) by extensions ['ignore', 'ignore_ament_install']
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src/spiral) by extension 'ignore'
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src/spiral) by extension 'ignore_ament_install'
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src/spiral) by extensions ['colcon_pkg']
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src/spiral) by extension 'colcon_pkg'
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src/spiral) by extensions ['colcon_meta']
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src/spiral) by extension 'colcon_meta'
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src/spiral) by extensions ['ros']
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(/home/elisaflemer/package/src/spiral) by extension 'ros'
+[2.738s] DEBUG:colcon.colcon_core.package_identification:Package '/home/elisaflemer/package/src/spiral' with type 'ros.ament_python' and name 'spiral'
+[2.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

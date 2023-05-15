@@ -19,7 +19,6 @@ from Pose import Pose
 from Rotation import Rotation
 from MissionControl import MissionControl
 
-
 # Define a classe BotController, que representa o nó de controle do robô
 class BotController(Node):
     # Inicializa o nó com período de controle de 0.05s e uma fila vazia
@@ -40,10 +39,6 @@ class BotController(Node):
         self.queue = mission_control # Define a fila de pontos a serem seguidos
 
         self.movement_origin = Pose() # Define a origem do movimento no eixo x do robô como 0
-        
-        # Booleanos para indicar se o robô está seguindo um ponto ou um formato
-        self.shape_selected = False
-        self.point_selected = False
 
         # Cria um timer para controlar o robô
         self.control_timer = self.create_timer(
@@ -182,14 +177,10 @@ class BotController(Node):
        # Se a fila estiver vazia, indica que a jornada acabou
         except IndexError:
             self.get_logger().info(f"Fim da jornada!")
-            self.shape_selected = False
-            self.point_selected = False
 
     # Callback para receber pose atual
     def pose_callback(self, msg):
 
-        # Se o robô estiver em movimento, atualiza a pose atual
-        if self.shape_selected or self.point_selected:
             # Decompõe a mensagem de pose em x, y e theta
             x = msg.pose.pose.position.x
             y = msg.pose.pose.position.y
@@ -210,19 +201,3 @@ class BotController(Node):
             if not self.initiated:
                 self.initiated = True
                 self.update_setpoint()
-        
-        # Se o robô não estiver com movimento definido, recebe missão do servidor
-        else:
-            response = requests.get('http://127.0.0.1:8000/mission')
-
-            # Se a missão for um formato, carrega o formato
-            if 'shape' in response.json():
-                self.shape_selected = True
-                self.point_selected = False
-                self.queue.load_shape(response.json()['shape'])
-            
-            # Se a missão for um ponto, carrega o ponto
-            else:
-                self.shape_selected = False
-                self.point_selected = True
-                self.queue.load_point(response.json()['x'], response.json()['y'])

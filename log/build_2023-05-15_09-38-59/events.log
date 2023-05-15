@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000427] (spiral) JobQueued: {'identifier': 'spiral', 'dependencies': OrderedDict()}
+[0.002015] (spiral) JobStarted: {'identifier': 'spiral'}
+[0.099140] (-) TimerEvent: {}
+[0.200031] (-) TimerEvent: {}
+[0.300716] (-) TimerEvent: {}
+[0.402306] (-) TimerEvent: {}
+[0.504650] (-) TimerEvent: {}
+[0.605170] (-) TimerEvent: {}
+[0.706882] (-) TimerEvent: {}
+[0.807405] (-) TimerEvent: {}
+[0.907920] (-) TimerEvent: {}
+[1.008479] (-) TimerEvent: {}
+[1.109109] (-) TimerEvent: {}
+[1.209691] (-) TimerEvent: {}
+[1.310288] (-) TimerEvent: {}
+[1.410997] (-) TimerEvent: {}
+[1.511960] (-) TimerEvent: {}
+[1.612615] (-) TimerEvent: {}
+[1.713226] (-) TimerEvent: {}
+[1.814381] (-) TimerEvent: {}
+[1.878199] (spiral) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/spiral', 'build', '--build-base', '/home/elisaflemer/package/build/spiral/build', 'install', '--record', '/home/elisaflemer/package/build/spiral/install.log', '--single-version-externally-managed'], 'cwd': '/home/elisaflemer/package/src/spiral', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'elisaflemer', 'GIT_ASKPASS': '/home/elisaflemer/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': 'true', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/elisaflemer', 'OLDPWD': '/home/elisaflemer/package/src', 'TERM_PROGRAM_VERSION': '1.78.2', 'VSCODE_IPC_HOOK_CLI': '/mnt/wslg/runtime-dir/vscode-ipc-af4a9da3-2a4b-4b7f-881e-7d5486cd806f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/elisaflemer/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/elisaflemer/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/node', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'NVM_DIR': '/home/elisaflemer/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/elisaflemer/package/install:/home/elisaflemer/package/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'elisaflemer', 'NAME': 'Notebook-19', 'WSL_INTEROP': '/run/WSL/12_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/elisaflemer/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/remote-cli:/home/elisaflemer/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/FluidPatcher:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Geth:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Calibre2/:/mnt/c/Users/Inteli/.cargo/bin:/mnt/c/Users/Inteli/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Inteli/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Inteli/PycharmProjects/pythonProject/fluidsynth-2.2.5-win10-x64/lib:/mnt/c/Users/Inteli/AppData/Roaming/npm:/mnt/c/Users/Inteli/AppData/Local/JetBrains/Toolbox/scripts:/mnt/c/Program Files/heroku/bin:/mnt/c/Users/Inteli/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Inteli/.fly/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Users/Inteli/Documents/mongosh-1.6.1-win32-x64/mongosh-1.6.1-win32-x64/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/mnt/wslg/runtime-dir/vscode-git-2f1b16b436.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/elisaflemer/package/install/spiral:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/elisaflemer/package/build/spiral', 'TURTLEBOT3_MODEL': 'burger', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/elisaflemer/package/build/spiral/prefix_override:/home/elisaflemer/package/install/spiral/lib/python3.10/site-packages:/home/elisaflemer/package/install/spiral/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'NVM_RC_VERSION': '', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[1.914551] (-) TimerEvent: {}
+[2.015404] (-) TimerEvent: {}
+[2.115894] (-) TimerEvent: {}
+[2.216467] (-) TimerEvent: {}
+[2.317175] (-) TimerEvent: {}
+[2.418372] (-) TimerEvent: {}
+[2.501915] (spiral) StdoutLine: {'line': b'running egg_info\n'}
+[2.503178] (spiral) StdoutLine: {'line': b'writing ../../build/spiral/spiral.egg-info/PKG-INFO\n'}
+[2.504269] (spiral) StdoutLine: {'line': b'writing dependency_links to ../../build/spiral/spiral.egg-info/dependency_links.txt\n'}
+[2.504527] (spiral) StdoutLine: {'line': b'writing entry points to ../../build/spiral/spiral.egg-info/entry_points.txt\n'}
+[2.504684] (spiral) StdoutLine: {'line': b'writing requirements to ../../build/spiral/spiral.egg-info/requires.txt\n'}
+[2.504788] (spiral) StdoutLine: {'line': b'writing top-level names to ../../build/spiral/spiral.egg-info/top_level.txt\n'}
+[2.507861] (spiral) StdoutLine: {'line': b"reading manifest file '../../build/spiral/spiral.egg-info/SOURCES.txt'\n"}
+[2.509781] (spiral) StdoutLine: {'line': b"writing manifest file '../../build/spiral/spiral.egg-info/SOURCES.txt'\n"}
+[2.510186] (spiral) StdoutLine: {'line': b'running build\n'}
+[2.510459] (spiral) StdoutLine: {'line': b'running build_py\n'}
+[2.511144] (spiral) StdoutLine: {'line': b'running install\n'}
+[2.512450] (spiral) StdoutLine: {'line': b'running install_lib\n'}
+[2.514292] (spiral) StdoutLine: {'line': b'running install_data\n'}
+[2.515670] (spiral) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.518486] (-) TimerEvent: {}
+[2.519470] (spiral) StdoutLine: {'line': b"removing '/home/elisaflemer/package/install/spiral/lib/python3.10/site-packages/spiral-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.519722] (spiral) StdoutLine: {'line': b'Copying ../../build/spiral/spiral.egg-info to /home/elisaflemer/package/install/spiral/lib/python3.10/site-packages/spiral-0.0.0-py3.10.egg-info\n'}
+[2.520389] (spiral) StdoutLine: {'line': b'running install_scripts\n'}
+[2.570322] (spiral) StdoutLine: {'line': b'Installing draw_spiral script to /home/elisaflemer/package/install/spiral/lib/spiral\n'}
+[2.571828] (spiral) StdoutLine: {'line': b"writing list of installed files to '/home/elisaflemer/package/build/spiral/install.log'\n"}
+[2.618655] (-) TimerEvent: {}
+[2.645261] (spiral) CommandEnded: {'returncode': 0}
+[2.672595] (spiral) JobEnded: {'identifier': 'spiral', 'rc': 0}
+[2.675679] (-) EventReactorShutdown: {}
