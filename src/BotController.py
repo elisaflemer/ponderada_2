@@ -1,6 +1,5 @@
 # Este script cria um nó de ROS2 para controlar o movimento do robô.
-# Ele permite criar filas de pontos para o robô seguir, e também permite
-# enviar comandos de formato ou posição para o robô seguir a partir de um servidor.
+# Ele lê filas de pontos a serem seguidos do MissionControl e publica comandos de movimento
 # Para isso, foram criadas funções de transformação de base, que traduzem coordenadas
 # absolutas do mundo para coordenadas relativas ao robô, isto é, uma rotação no
 # eixo z do robô e uma translação no eixo x do robô.
