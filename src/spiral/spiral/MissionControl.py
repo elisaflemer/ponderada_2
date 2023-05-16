@@ -1,4 +1,4 @@
-from Pose import Pose
+from .Pose import Pose
 from collections import deque
 
 # Define a classe MissionControl, que representa a fila de pontos a serem seguidos

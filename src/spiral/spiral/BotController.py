@@ -13,10 +13,10 @@ import math
 
 import requests
 
-from max_diffs import MAX_DIFF
-from Pose import Pose
-from Rotation import Rotation
-from MissionControl import MissionControl
+from .max_diffs import MAX_DIFF
+from .Pose import Pose
+from .Rotation import Rotation
+from .MissionControl import MissionControl
 
 # Define a classe BotController, que representa o nó de controle do robô
 class BotController(Node):
@@ -176,6 +176,7 @@ class BotController(Node):
        # Se a fila estiver vazia, indica que a jornada acabou
         except IndexError:
             self.get_logger().info(f"Fim da jornada!")
+            exit()
 
     # Callback para receber pose atual
     def pose_callback(self, msg):

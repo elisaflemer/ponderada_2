@@ -1,4 +1,4 @@
-from max_diffs import MAX_DIFF
+from .max_diffs import MAX_DIFF
 from turtlesim.msg import Pose as TPose
 
 # Define a classe Pose, que representa uma posição no mundo

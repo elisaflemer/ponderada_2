@@ -9,7 +9,13 @@ setup.py
 ../../build/spiral/spiral.egg-info/top_level.txt
 ../../build/spiral/spiral.egg-info/zip-safe
 resource/spiral
+spiral/BotController.py
+spiral/MissionControl.py
+spiral/Pose.py
+spiral/Rotation.py
 spiral/__init__.py
+spiral/draw_spiral.py
+spiral/max_diffs.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

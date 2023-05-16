@@ -1,0 +1,24 @@
+[1.825s] Invoking command in '/home/elisaflemer/ponderada_2/src/spiral': PYTHONPATH=/home/elisaflemer/ponderada_2/build/spiral/prefix_override:/home/elisaflemer/ponderada_2/install/spiral/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/spiral build --build-base /home/elisaflemer/ponderada_2/build/spiral/build install --record /home/elisaflemer/ponderada_2/build/spiral/install.log --single-version-externally-managed
+[2.496s] running egg_info
+[2.496s] writing ../../build/spiral/spiral.egg-info/PKG-INFO
+[2.496s] writing dependency_links to ../../build/spiral/spiral.egg-info/dependency_links.txt
+[2.496s] writing entry points to ../../build/spiral/spiral.egg-info/entry_points.txt
+[2.497s] writing requirements to ../../build/spiral/spiral.egg-info/requires.txt
+[2.497s] writing top-level names to ../../build/spiral/spiral.egg-info/top_level.txt
+[2.499s] reading manifest file '../../build/spiral/spiral.egg-info/SOURCES.txt'
+[2.500s] writing manifest file '../../build/spiral/spiral.egg-info/SOURCES.txt'
+[2.503s] running build
+[2.504s] running build_py
+[2.504s] copying spiral/Pose.py -> /home/elisaflemer/ponderada_2/build/spiral/build/lib/spiral
+[2.504s] running install
+[2.505s] running install_lib
+[2.506s] copying /home/elisaflemer/ponderada_2/build/spiral/build/lib/spiral/Pose.py -> /home/elisaflemer/ponderada_2/install/spiral/lib/python3.10/site-packages/spiral
+[2.507s] byte-compiling /home/elisaflemer/ponderada_2/install/spiral/lib/python3.10/site-packages/spiral/Pose.py to Pose.cpython-310.pyc
+[2.508s] running install_data
+[2.509s] running install_egg_info
+[2.513s] removing '/home/elisaflemer/ponderada_2/install/spiral/lib/python3.10/site-packages/spiral-0.0.0-py3.10.egg-info' (and everything under it)
+[2.514s] Copying ../../build/spiral/spiral.egg-info to /home/elisaflemer/ponderada_2/install/spiral/lib/python3.10/site-packages/spiral-0.0.0-py3.10.egg-info
+[2.516s] running install_scripts
+[2.573s] Installing draw_spiral script to /home/elisaflemer/ponderada_2/install/spiral/lib/spiral
+[2.574s] writing list of installed files to '/home/elisaflemer/ponderada_2/build/spiral/install.log'
+[2.665s] Invoked command in '/home/elisaflemer/ponderada_2/src/spiral' returned '0': PYTHONPATH=/home/elisaflemer/ponderada_2/build/spiral/prefix_override:/home/elisaflemer/ponderada_2/install/spiral/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/spiral build --build-base /home/elisaflemer/ponderada_2/build/spiral/build install --record /home/elisaflemer/ponderada_2/build/spiral/install.log --single-version-externally-managed

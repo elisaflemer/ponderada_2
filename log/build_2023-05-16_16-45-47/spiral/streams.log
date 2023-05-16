@@ -1,0 +1,40 @@
+[2.260s] Invoking command in '/home/elisaflemer/ponderada_2/src/spiral': PYTHONPATH=/home/elisaflemer/ponderada_2/build/spiral/prefix_override:/home/elisaflemer/ponderada_2/install/spiral/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/spiral build --build-base /home/elisaflemer/ponderada_2/build/spiral/build install --record /home/elisaflemer/ponderada_2/build/spiral/install.log --single-version-externally-managed
+[3.079s] running egg_info
+[3.079s] writing ../../build/spiral/spiral.egg-info/PKG-INFO
+[3.080s] writing dependency_links to ../../build/spiral/spiral.egg-info/dependency_links.txt
+[3.081s] writing entry points to ../../build/spiral/spiral.egg-info/entry_points.txt
+[3.081s] writing requirements to ../../build/spiral/spiral.egg-info/requires.txt
+[3.082s] writing top-level names to ../../build/spiral/spiral.egg-info/top_level.txt
+[3.089s] reading manifest file '../../build/spiral/spiral.egg-info/SOURCES.txt'
+[3.095s] writing manifest file '../../build/spiral/spiral.egg-info/SOURCES.txt'
+[3.102s] running build
+[3.102s] running build_py
+[3.102s] copying spiral/max_diffs.py -> /home/elisaflemer/ponderada_2/build/spiral/build/lib/spiral
+[3.107s] copying spiral/Pose.py -> /home/elisaflemer/ponderada_2/build/spiral/build/lib/spiral
+[3.107s] copying spiral/BotController.py -> /home/elisaflemer/ponderada_2/build/spiral/build/lib/spiral
+[3.107s] copying spiral/MissionControl.py -> /home/elisaflemer/ponderada_2/build/spiral/build/lib/spiral
+[3.107s] copying spiral/Rotation.py -> /home/elisaflemer/ponderada_2/build/spiral/build/lib/spiral
+[3.107s] copying spiral/__init__.py -> /home/elisaflemer/ponderada_2/build/spiral/build/lib/spiral
+[3.107s] copying spiral/draw_spiral.py -> /home/elisaflemer/ponderada_2/build/spiral/build/lib/spiral
+[3.108s] running install
+[3.109s] running install_lib
+[3.109s] copying /home/elisaflemer/ponderada_2/build/spiral/build/lib/spiral/max_diffs.py -> /home/elisaflemer/ponderada_2/install/spiral/lib/python3.10/site-packages/spiral
+[3.109s] copying /home/elisaflemer/ponderada_2/build/spiral/build/lib/spiral/Pose.py -> /home/elisaflemer/ponderada_2/install/spiral/lib/python3.10/site-packages/spiral
+[3.109s] copying /home/elisaflemer/ponderada_2/build/spiral/build/lib/spiral/BotController.py -> /home/elisaflemer/ponderada_2/install/spiral/lib/python3.10/site-packages/spiral
+[3.117s] copying /home/elisaflemer/ponderada_2/build/spiral/build/lib/spiral/MissionControl.py -> /home/elisaflemer/ponderada_2/install/spiral/lib/python3.10/site-packages/spiral
+[3.117s] copying /home/elisaflemer/ponderada_2/build/spiral/build/lib/spiral/Rotation.py -> /home/elisaflemer/ponderada_2/install/spiral/lib/python3.10/site-packages/spiral
+[3.118s] copying /home/elisaflemer/ponderada_2/build/spiral/build/lib/spiral/draw_spiral.py -> /home/elisaflemer/ponderada_2/install/spiral/lib/python3.10/site-packages/spiral
+[3.118s] byte-compiling /home/elisaflemer/ponderada_2/install/spiral/lib/python3.10/site-packages/spiral/max_diffs.py to max_diffs.cpython-310.pyc
+[3.118s] byte-compiling /home/elisaflemer/ponderada_2/install/spiral/lib/python3.10/site-packages/spiral/Pose.py to Pose.cpython-310.pyc
+[3.119s] byte-compiling /home/elisaflemer/ponderada_2/install/spiral/lib/python3.10/site-packages/spiral/BotController.py to BotController.cpython-310.pyc
+[3.119s] byte-compiling /home/elisaflemer/ponderada_2/install/spiral/lib/python3.10/site-packages/spiral/MissionControl.py to MissionControl.cpython-310.pyc
+[3.119s] byte-compiling /home/elisaflemer/ponderada_2/install/spiral/lib/python3.10/site-packages/spiral/Rotation.py to Rotation.cpython-310.pyc
+[3.119s] byte-compiling /home/elisaflemer/ponderada_2/install/spiral/lib/python3.10/site-packages/spiral/draw_spiral.py to draw_spiral.cpython-310.pyc
+[3.119s] running install_data
+[3.120s] running install_egg_info
+[3.135s] removing '/home/elisaflemer/ponderada_2/install/spiral/lib/python3.10/site-packages/spiral-0.0.0-py3.10.egg-info' (and everything under it)
+[3.135s] Copying ../../build/spiral/spiral.egg-info to /home/elisaflemer/ponderada_2/install/spiral/lib/python3.10/site-packages/spiral-0.0.0-py3.10.egg-info
+[3.144s] running install_scripts
+[3.211s] Installing draw_spiral script to /home/elisaflemer/ponderada_2/install/spiral/lib/spiral
+[3.212s] writing list of installed files to '/home/elisaflemer/ponderada_2/build/spiral/install.log'
+[3.341s] Invoked command in '/home/elisaflemer/ponderada_2/src/spiral' returned '0': PYTHONPATH=/home/elisaflemer/ponderada_2/build/spiral/prefix_override:/home/elisaflemer/ponderada_2/install/spiral/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/spiral build --build-base /home/elisaflemer/ponderada_2/build/spiral/build install --record /home/elisaflemer/ponderada_2/build/spiral/install.log --single-version-externally-managed
